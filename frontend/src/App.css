@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Afacad Flux", sans-serif;
+  list-style: none;
+  text-decoration: none;
+
+  box-sizing: border-box;
+}
+body {
+  background: gainsboro;
+}
+.login {
+  display: flex;
+  align-items: center;
+  width: 40rem;
+  justify-content: center;
+  min-height: 30rem;
+  margin: auto;
+}
+.login section {
+  width: 100%;
+  height: 100%;
+}
+
+.login section form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: white;
+  width: 100%;
+  padding: 2rem;
+
+  gap: 1rem;
+}
+.login section form input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid gray;
+  outline: none;
+}
+.login section form button {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid black;
+  background: black;
+  color: white;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.login section form .form-link {
+  color: black;
+  text-decoration: underline;
+}
+.login section form h1 {
+  text-transform: uppercase;
+}
